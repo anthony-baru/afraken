@@ -1,0 +1,12 @@
+branch-defaults:
+  default:
+    environment: examinquiry
+  master:
+    environment: examinquiry
+global:
+  application_name: examinquiry
+  default_ec2_keyname: exam
+  default_platform: 64bit Amazon Linux 2017.03 v2.4.0 running PHP 7.0
+  default_region: eu-central-1
+  profile: eb-cli
+  sc: git
